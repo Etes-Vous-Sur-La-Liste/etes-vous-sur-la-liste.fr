@@ -70,7 +70,7 @@ body {background-color: black;}
            z-index: 9998;
 }
 .block-bouton{
-    position: fixed; left: 40%; top: 70%;
+    position: fixed; left: 40%; top: 90%;
            z-index: 9998;
 }
 .image {
@@ -179,18 +179,19 @@ body {background-color: black;}
   cursor: pointer;font-family: 'Maax 205TF', sans-serif;
   font-size: 22px;
   letter-spacing: 1px;
-  line-height: 75px;
+  line-height: 64px;
   vertical-align: bottom;
-  position: fixed; left: auto; top: 75%;
+  position: fixed; left: 70%; top: 5%;
 }
 .cta {
-  height: 80px;
+  height: 64px;
   width: 320px;
   color: black;
     font-family: 'Maax 205TF', sans-serif;
   z-index: 1;
   transition: 1.2s;
-background-color: #DDDDDD;
+  background-color: #DDDDDD;
+  box-shadow: 3px 3px 30px #C95B57;
 }
 
 .liste {
@@ -205,7 +206,7 @@ background-color: #DDDDDD;
 }
 
 .cta:hover {
-  transform: translateX(-80%);
+  transform: translatey(-20%);
   transition: 1.2s;
 }
 a {
@@ -246,7 +247,7 @@ a {
       letter-spacing: 1px;
       line-height: 50px;
       vertical-align: bottom;
-      position: fixed; left: auto; top: 75%;
+      position: fixed; left: 20%; top: 7%;
     }
     .cta {height:50px;}.liste {height:50px;}
     }
