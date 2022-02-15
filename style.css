@@ -181,7 +181,7 @@ body {background-color: black;}
     font-family: 'Maax 205TF', sans-serif;
   z-index: 1;
   transition: 1.2s;
-  box-shadow: 3px 3px 30px #000000;
+  box-shadow: 3px 3px 30px #c95b57;
 }
 
 .cta:hover {
